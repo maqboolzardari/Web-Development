@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write('Maqbool');
+        document.write('Ali');
+        document.write("<br />");
+        document.writeln("Maqbool");
+        document.writeln("Ali");
+
+        //concatination
+        document.write('<br />');
+        document.write('Maqbool' + ' ' + 'Ali');
+        document.write('<br />');
+
+        //var
+        var a = 'Ali';
+        var b = 'Maqbool';
+
+        document.write(`${'Maqbool'} + ${'Ali'}`);
+        document.write('<br />');
+        document.write(`${a} ${b}`);
+        // console
+
+        console.log('First Console');
+        //var table = [] ;
+        
+        let user = [
+            {fName: "Shahbaz", lName: "Ali", age: 23},
+            {fName: "Maqbool", lName: "Ali", age: 23},
+        ];
+        console.log(user);
+
+    console.table(user);
+    </script>
+</body>
+</html>
